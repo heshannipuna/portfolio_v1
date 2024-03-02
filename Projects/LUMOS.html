@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>heshannipuna</title>
-    <link rel="icon" href="../xx.png" type="image/png">
+    <link rel="icon" href="xx.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
@@ -46,6 +46,123 @@
             color: #666;
         }
 
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+		
+		nav a:hover{
+			color: #E1C16E; /* Change link color on hover */
+			font-weight: bold;
+		}
+		
+		.embedded-container {
+            max-width: 720px;
+            margin: 0 auto; 
+        }
+		
+		.github-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #6f42c1;
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #5a3e98;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+			margin-top: 0px; 
+			margin-bottom: 40px; 
+        }
+
+        .github-button:hover {
+            background-color: #5a3e98;
+        }
+		
+		.document-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #28a745;
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #218838;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+			margin-top: 10x;
+			margin-bottom: 10px;
+        }
+
+        .document-button:hover {
+            background-color: #218838;
+        }
+		
+		.additional-text {
+			font-size: 18px; 
+			font-weight: bold;
+			color: #25D366; 
+			margin-top: 30px; 
+			margin-bottom: 20px;
+		}
+		/* CSS for Project Duration section */
+		#project-duration {
+			margin-top: 20px;
+		}
+
+		#project-duration h3 {
+			color: #333;
+			font-size: 22px;
+		}
+
+		#project-duration p {
+			margin: 8px 0;
+			color: #666;
+		}
+
+		
+		/* CSS for Project Members section */
+		#project-members {
+			margin-top: 20px; /* Add some space above the members list */
+		}
+
+		#project-members h3 {
+			color: #333; /* Heading color */
+			font-size: 22px;
+		}
+
+		#project-members ul {
+			list-style: none; /* Remove default list styles */
+			padding: 0;
+		}
+
+		#project-members li {
+			margin-bottom: 10px; /* Add space between each member entry */
+		}
+
+		#project-members li a {
+			color: #007BFF; /* Link color */
+			text-decoration: none;
+		}
+
+		#project-members li a:hover {
+
+			color: #0056b3; /* Change link color on hover */
+			font-weight: bold; /* Increase font weight on hover */
+			background-color: #f4f4f4; /* Add a background color on hover */
+			border-radius: 3px; /* Add a subtle border-radius for a button-like feel */
+			padding: 3px 8px; /* Add padding for a more clickable area */
+			transition: all 0.3s ease; /* Apply a smooth transition for a polished effect */
+		}
+
         footer {
             text-align: center;
             padding: 1em;
@@ -60,19 +177,105 @@
     <header>
         <h1>Heshan's Projects</h1>
     </header>
+	
+	<nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#contact">Contact</a>
+        <a href="../index.html#about">About</a>
+    </nav>
 
     <section>
-        <h2>LUMOS</h2>
+        <h2>LUMOS - Hand Gesture based Light Control System using Arduino and Machine Learning</h2>
+		
 		<p>
-			The "LUMOS" project seeks to meet the demand for a convenient and user-friendly technique of light management for those with physical disabilities or for those who desire a more practical and convenient manner of light control. Users who desire an alternative to conventional ways of light control may find the present options to be less obvious or difficult to use if they have physical limitations. This issue is addressed by the suggested solution, "LUMOS," by creating a user-friendly and intuitive hand gesture control system. This offers a remedy to the issue. 
-			This makes use of a machine learning model to identify predetermined hand motions and link them to particular actions, like turning on or off lights or modifying brightness. The system may be customized and allows several users to control lights using their particular set of gestures while operating in real-time in different lighting environments. The technology will also offer user-friendly characteristics including the capacity to be operated by mute or bedridden people. The final goal of the project is to build and create an application that works as a hand-gesture-based system, allowing bedridden users to control the lights in their room without the need for verbal or outside assistance, offering a practical and user-friendly solution.
+			Lumos is a hand gesture controlled light system where users can perform various hand gestures
+			to control a set of lights. The program uses machine learning and computer vision technology to
+			recognize and classify the hand gestures. Technologies used were media pipe ,OpenCV and to
+			host the model ,then uploaded it to a web server for easy access. This is very helpful towards
+			bedridden people who are unable to try traditional methods such as wall mounted light switches
+			,also office workers mostly small businesses and especially gamers who need convenience and
+			ease .
+        </p>
+			
+		<p>
+			Finally, the main feature of the prototype features the ability for multiple users to control lights
+			with a single camera module ,so it would recognize the gesture and with the usage of a REST
+			API ,it will send the command through a database into the hand gesture model, and it will send a
+			signal to the Arduino.
+        </p>
+			<div style="display: flex;">
+				
+				<p>Finally, the main feature of the prototype features the ability for multiple users to control lights
+			with a single camera module ,so it would recognize the gesture and with the usage of a REST
+			API ,it will send the command through a database into the hand gesture model, and it will send a
+			signal to the Arduino.</p>
+			
+			<img src="test3.jpg" alt="LUMOS Image" style="width: 400px; height: auto; margin-left: 20px; margin-right: 20px;">
 
-			This was our Software Development Group Project at our university. We also had the opportunity to showcase this project at Cutting Edge.
-				- For further details about this project, please refer to my website: www.heshannipuna.dev.
+
+			</div>
+			
+		<p>
+			Finally, the main feature of the prototype features the ability for multiple users to control lights
+			with a single camera module ,so it would recognize the gesture and with the usage of a REST
+			API ,it will send the command through a database into the hand gesture model, and it will send a
+			signal to the Arduino.
         </p>
 		
+		<p>
+			
+        </p>
+		
+		<p>
+			
+        </p>
+		
+		<p>
+			
+        </p>
+		
+		<p>
+			
+        </p>
+						<!-- Section for Project Duration -->
+		<section id="project-duration">
+			<h3>Project Duration</h3>
+			<p><strong>Start Date:</strong> January 1, 2024</p>
+			<p><strong>End Date:</strong> December 31, 2024</p>
+		</section>
+		<!-- Section for Project Members -->
+		<section id="project-members">
+			<h3>Project Members</h3>
+			<ul>
+				<li><strong>Member 1:</strong> <a href="https://www.linkedin.com/in/vinuja-jayathilake/" target="_blank">Vinuja Jayathilake
+				<img src="arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></a></li>
+				
+				<li><strong>Member 2:</strong> <a href="https://www.linkedin.com/in/sulakshana-bandara-karunarathne-053b9a221/" target="_blank">Sulakshana Karunarathne
+				<img src="arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></a></li>
+				
+				<li><strong>Member 3:</strong> <a href="https://www.linkedin.com/in/taalibasaf/" target="_blank">Taalib Asaf
+				<img src="arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></a></li>
+				
+				<li><strong>Member 4:</strong> <a href="https://www.linkedin.com/in/dulandi-hewapathirana-065467224/" target="_blank">Dulandi Hewapathirana
+				<img src="arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></a></li>
+				
+				<li><strong>Member 5:</strong> <a href="https://www.linkedin.com/in/heshannipuna" target="_blank">Heshan Nipuna
+				<img src="arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></a></li>
+			</ul>
+		</section>
+		
 
-
+		
+		<p class="additional-text">For more reading, refer to the Documentation and the Github Repository...<img src="arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></p>
+		
+		<a href="http://www.heshannipuna.dev" target="_blank" class="document-button">Documentation</a><br>
+		
+		<a href="https://github.com/your-username/your-repository" target="_blank" class="github-button">View on GitHub</a><br>
+		
+		<div class="embedded-container">
+            <iframe width="720" height="405" src="https://drive.google.com/file/d/1PSN9KNSl3hpMtN14kkBix9e3j9DkWdFB/preview" frameborder="0" allowfullscreen></iframe>
+        </div>
+		
     </section>
 
     <footer>
@@ -82,4 +285,6 @@
 </body>
 
 </html>
+
+
 
