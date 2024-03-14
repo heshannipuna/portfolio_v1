@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>heshannipuna</title>
-    <link rel="icon" href="xx.png" type="image/png">
+    <link rel="icon" href="../img/xx.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
@@ -46,6 +46,123 @@
             color: #666;
         }
 
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+		
+		nav a:hover{
+			color: #E1C16E; /* Change link color on hover */
+			font-weight: bold;
+		}
+		
+		.embedded-container {
+            max-width: 720px;
+            margin: 0 auto; 
+        }
+		
+		.github-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #6f42c1;
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #5a3e98;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+			margin-top: 0px; 
+			margin-bottom: 40px; 
+        }
+
+        .github-button:hover {
+            background-color: #5a3e98;
+        }
+		
+		.document-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #28a745;
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #218838;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+			margin-top: 10x;
+			margin-bottom: 10px;
+        }
+
+        .document-button:hover {
+            background-color: #218838;
+        }
+		
+		.additional-text {
+			font-size: 18px; 
+			font-weight: bold;
+			color: #25D366; 
+			margin-top: 30px; 
+			margin-bottom: 20px;
+		}
+		/* CSS for Project Duration section */
+		#project-duration {
+			margin-top: 20px;
+		}
+
+		#project-duration h3 {
+			color: #333;
+			font-size: 22px;
+		}
+
+		#project-duration p {
+			margin: 8px 0;
+			color: #666;
+		}
+
+		
+		/* CSS for Project Members section */
+		#project-members {
+			margin-top: 20px; /* Add some space above the members list */
+		}
+
+		#project-members h3 {
+			color: #333; /* Heading color */
+			font-size: 22px;
+		}
+
+		#project-members ul {
+			list-style: none; /* Remove default list styles */
+			padding: 0;
+		}
+
+		#project-members li {
+			margin-bottom: 10px; /* Add space between each member entry */
+		}
+
+		#project-members li a {
+			color: #007BFF; /* Link color */
+			text-decoration: none;
+		}
+
+		#project-members li a:hover {
+
+			color: #0056b3; /* Change link color on hover */
+			font-weight: bold; /* Increase font weight on hover */
+			background-color: #f4f4f4; /* Add a background color on hover */
+			border-radius: 3px; /* Add a subtle border-radius for a button-like feel */
+			padding: 3px 8px; /* Add padding for a more clickable area */
+			transition: all 0.3s ease; /* Apply a smooth transition for a polished effect */
+		}
+
         footer {
             text-align: center;
             padding: 1em;
@@ -60,13 +177,108 @@
     <header>
         <h1>Heshan's Projects</h1>
     </header>
+    
+	<nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#contact">Contact</a>
+        <a href="../index.html#about">About</a>
+    </nav>
 
     <section>
-        <h2>Disaster Survivor</h2>
+        <h2>Disaster Survivor - All-in-One App for Disaster Preparedness and Recovery</h2>
 		<p>
-			
-        </p>
+			Disaster Survivor is a mobile application designed to provide crucial assistance to individuals impacted by natural disasters. 
+            With a mission to empower communities in times of crisis. We understand the immense stress and uncertainty that natural disasters 
+            bring. Disaster Survivor aims to empower individuals and communities by offering a comprehensive suite of features accessible at your 
+            fingertips. Whether you're facing a hurricane, earthquake, or flood, our app equips you with the knowledge and resources needed to 
+            navigate challenging situations.
+        </p><br>
+
+        <h3>Key features</h3>
+        <ul>
+            <li>Real-Time Satellite Views: 
+                <p>
+                    Gain valuable insights with access to real-time satellite imagery. 
+                    Stay informed about weather patterns, potential flooding risks, and critical evacuation zones. 
+                    This crucial information allows you to make informed decisions for your safety and the safety of your loved ones.
+                </p>
+            </li>
+            <li>Flood Survival Guide: 
+                <p>
+                    Knowledge is power, especially during a flood. Our app provides a comprehensive Flood Survival Guide. 
+                    This easy-to-follow guide outlines essential steps for preparing for and surviving floods. 
+                    Find clear instructions on evacuation procedures, safety measures to take within your home, and crucial tips 
+                    to protect yourself and your belongings.
+                </p>
+            </li>
+            <li>In-App Donations: 
+                <p>
+                    In the aftermath of a disaster, every bit of support counts. Disaster Survivor facilitates secure and convenient 
+                    in-app donations to verified disaster relief organizations. Contribute directly to the recovery efforts and help 
+                    communities rebuild in the wake of devastation.
+                </p>
+            </li>
+            <li>Global Disaster News: 
+                <p>
+                    Stay informed about natural disasters unfolding around the world with our global disaster news feed. 
+                    This feature allows you to be prepared to offer support to those in need, and gain valuable insights 
+                    that might be relevant to potential threats in your own area.
+                </p>
+            </li>
+            <li>Medical Help for Injuries: 
+                <p>
+                    Natural disasters can often lead to unforeseen injuries. Our app provides information on how to treat common injuries 
+                    sustained during disasters. Find clear first-aid instructions and access to a directory of medical resources to ensure 
+                    you receive proper care.
+                </p>
+            </li>
+            <li>Emergency Hotlines: 
+                <p>
+                    When seconds matter, having access to emergency services is crucial. Disaster Survivor provides a comprehensive list of 
+                    emergency hotlines for critical services like fire departments, police, and ambulances. This readily available 
+                    information ensures you can get help quickly in case of an emergency.
+                </p>
+            </li>
+        </ul>
+	
+        <!-- Section for Project Duration -->
+		<section id="project-duration">
+			<h3>Project Duration</h3>
+			<p><strong>Start Date:</strong> January 1, 2024</p>
+			<p><strong>End Date:</strong> December 31, 2024</p>
+		</section>
+
+        <!-- Section for Project Members -->
+		<section id="project-members">
+			<h3>Project Members</h3>
+			<ul>
+                <li><strong>Member 1:</strong> <a href="https://www.linkedin.com/in/heshannipuna" target="_blank">Heshan Nipuna
+                <img src="../img/arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></a></li>
+
+				<li><strong>Member 2:</strong> <a href="https://www.linkedin.com/in/maneesha-shehara-463a9b222/" target="_blank">Maneesha Shehara
+				<img src="../img/arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></a></li>
+				
+				<li><strong>Member 3:</strong> <a href="https://www.linkedin.com/in/" target="_blank">Shanjay Sharma
+				<img src="../img/arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></a></li>
+				
+				<li><strong>Member 4:</strong> <a href="https://www.linkedin.com/in/abbas-muneer-81b18a223/" target="_blank">Abbas Sirajul
+				<img src="../img/arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></a></li>
+				
+				<li><strong>Member 5:</strong> <a href="https://www.linkedin.com/in/jinithi-ariyawansha-57439622b/" target="_blank">Jinithi Yasami
+				<img src="../img/arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></a></li>
+
+                <li><strong>Member 6:</strong> <a href="https://www.linkedin.com/in/romel-perera-748532268/" target="_blank">Romel Perera
+                <img src="../img/arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></a></li>
+				
+			</ul>
+		</section>
+
+        <p class="additional-text">For more reading, refer to the Documentation and the Github Repository...<img src="../img/arrow-icon.png" alt="Link Icon" style="width: 12px; height: auto; margin-left: 5px;"></p>
 		
+		<a href="http://www.heshannipuna.dev" target="_blank" class="document-button">Documentation</a><br>
+		
+		<a href="https://github.com/your-username/your-repository" target="_blank" class="github-button">View on GitHub</a><br>
+   
 		
     </section>
 
