@@ -116,6 +116,19 @@ nav a:hover{
     color: #666;
 }
 
+#tech-stack {
+     margin-top: 20px;
+}
+
+#tech-stack p{
+    font-weight: bold;
+}
+
+#tech-stack h3{
+    color: #333;
+    font-size: 22px;
+}
+
 
 /* CSS for Project Members section */
 #project-members {
