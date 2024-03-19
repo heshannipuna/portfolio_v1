@@ -164,6 +164,16 @@ nav a:hover{
     transition: all 0.3s ease; /* Apply a smooth transition for a polished effect */
 }
 
+.link a{
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.link a:hover{
+    text-decoration: underline;
+    color: #0056b3;
+}
+
 footer {
     text-align: center;
     padding: 1em;
