@@ -125,7 +125,66 @@
 }
 
 @media (min-width: 640px) {
+    section {
+        max-width: 85%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 0.84em;
+    }
     
+    nav a {
+        padding: 5px;
+        margin: 0 8px;
+        font-size: 0.92em;
+    }
+
+    .emoji {
+        font-size: 1.4em;
+        margin-right: 0.5em;
+    }
+
+    .ett {
+        font-size: 0.84em;
+    }
+
+    .social-icons a {
+        font-size: 1.2em;
+    }
+
+    .download-btn {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    .project-caption {
+        font-size: 1em;
+    }
+
+    .project-title {
+        font-size: 1.5em;
+    }
+
+    .certificates-section li {
+        line-height: 1.6;
+    }
+
+    .certificates-section a {
+        font-size: 0.9em;
+    }
+    
+    .certi-emoji {
+        font-size: 1em;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -370,9 +429,7 @@ ul li {
     font-weight: bold;
 }
 
-.certi-emoji {
-    font-size: 0.75em;
-}
+
 
 footer {
     text-align: center;
