@@ -250,7 +250,241 @@
 }
 
 @media (min-width: 1024px) {
+    body {
+        font-family: 'Cascadia Code', monospace;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
     
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    section {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        color: #FFFFFF;
+    }
+    
+    h2,
+    h3 {
+        color: #333;
+    }
+    
+    h2 a {
+        color: #333;
+        text-decoration: none;
+    }
+    
+    h2 a:hover {
+        color: #0056b3; /* Change the color to your desired hover color */
+    }
+    
+    p {
+        line-height: 1.6;
+        color: #666;
+    
+    }
+    
+    .project-slider {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .project {
+        text-align: center;
+        margin-right: 10px; /* Add right margin */
+        margin-left: 10px; /* Add right margin */
+        margin-bottom: 20px; /* Add bottom margin */
+    }
+    
+    .project img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        display: block; /* Make the image a block element */
+        margin: 0 auto; /* Center horizontally */
+    }
+    
+    .project-caption {
+        font-size: 1.2em;
+        color: #666;
+    }
+    
+    .project-title {
+        font-size: 1.5em;
+        margin-bottom: 5px;
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s ease; /* Adding a smooth transition effect */
+    }
+    
+    .project-title:hover {
+        color: #007BFF; /* Change the color to your desired hover color */
+    }
+    
+    .emoji {
+        font-size: 1.2em;
+        margin-right: 0.5em;
+    }
+    
+    .social-icons {
+        display: flex;
+        flex-direction: column; /* Align items in a column */
+        align-items: flex-start; /* Align items to the left */
+        margin-top: 10px;
+    }
+    
+    .social-icons a {
+        display: flex; /* Make it a flex container */
+        align-items: center; /* Align items vertically */
+        margin-bottom: 10px; /* Add space between LinkedIn and GitHub */
+        color: #007BFF;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+    
+    .social-icons a:hover {
+        color: #0056b3; /* Change the color to your desired hover color */
+    }
+    
+    .social-icons img {
+        width: 40px; /* Set the desired size for the logo images */
+        height: auto;
+        margin-right: 20px;
+    
+    }
+    
+    .social-icons a:nth-child(2) {
+        margin-top: 10px; /* Add space between LinkedIn and GitHub */
+    }
+    
+    
+    /* Styling for Education section */
+    .education h2 {
+        color: #333;
+    }
+    
+    .education p {
+        line-height: 1.6;
+        color: #666;
+    }
+    
+    .education a {
+        color: #007BFF;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .education a:hover {
+        text-decoration: underline;
+        color: #0056b3;
+    }
+    
+    /* Styling for Resume/CV section */
+    
+    .resume-section h2 {
+        color: #333;
+    }
+    
+    .resume-section p {
+        line-height: 1.6;
+        color: #666;
+    }
+    
+    .download-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: #fff;
+        text-decoration: none;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    .download-btn:hover {
+        background-color: #0056b3;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 1em;
+        background-color: #333;
+        color: #fff;
+        bottom: 0;
+    }
+    
+    /* Styling for Certificates and Achievements section */
+    .certificates-section h2 {
+        color: #333;
+    }
+    
+    .certificates-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .certificates-section li {
+        line-height: 1.6;
+        color: #666;
+        margin-bottom: 5px;
+    }
+    
+    .certificates-section a {
+        color: #007BFF;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .certificates-section a:hover{
+        color: #0056b3; /* Change link color on hover */
+        font-weight: bold;
+    }
+    
+    nav {
+        background-color: #444;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+        font-weight: bold;
+    }
+    
+    nav a:hover{
+        color: #E1C16E; /* Change link color on hover */
+        font-weight: bold;
+    }
+    
+    
+    #contact a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+    
+    #contact a:hover {
+        color: #0056b3; /* Change the color to your desired hover color */
+    }
+
+    .ett {
+        font-size: 0.9em;
+    }
 }
 
 @media (min-width: 1280px) {
