@@ -216,7 +216,7 @@
     }
 
     .ett {
-        font-size: 0.84em;
+        font-size: 0.9em;
     }
 
     .social-icons a {
@@ -250,6 +250,130 @@
 }
 
 @media (min-width: 1024px) {
+    section {
+        max-width: 88%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+    
+    nav a {
+        padding: 5px;
+        margin: 0 10px;
+        font-size: 1em;
+    }
+
+    .emoji {
+        font-size: 1.5em;
+        margin-right: 0.7em;
+    }
+
+    .ett {
+        font-size: 1.2em;
+    }
+
+    .social-icons a {
+        font-size: 1.4em;
+    }
+
+    .download-btn {
+        padding: 10px 12px;
+        font-size: 17px;
+    }
+
+    .project-caption {
+        font-size: 1.2em;
+    }
+
+    .project-title {
+        font-size: 1.7em;
+    }
+
+    .certificates-section li {
+        line-height: 1.85;
+    }
+
+    .certificates-section a {
+        font-size: 1.2em;
+    }
+    
+    .certi-emoji {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 1280px) {
+    section {
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 2.8em;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+    
+    nav a {
+        padding: 5px;
+        margin: 0 10px;
+        font-size: 1.2em;
+    }
+
+    .emoji {
+        font-size: 1.5em;
+        margin-right: 0.7em;
+    }
+
+    .ett {
+        font-size: 1.5em;
+    }
+
+    .social-icons a {
+        font-size: 1.7em;
+    }
+
+    .download-btn {
+        padding: 10px 12px;
+        font-size: 20px;
+    }
+
+    .project-caption {
+        font-size: 1.5em;
+    }
+
+    .project-title {
+        font-size: 1.9em;
+    }
+
+    .certificates-section li {
+        line-height: 1.85;
+    }
+
+    .certificates-section a {
+        font-size: 1.5em;
+    }
+    
+    .certi-emoji {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width: 1440px) {
     body {
         font-family: 'Cascadia Code', monospace;
         margin: 0;
@@ -265,7 +389,7 @@
     }
     
     section {
-        max-width: 800px;
+        max-width: 1200px;
         margin: 20px auto;
         padding: 20px;
         background-color: #fff;
@@ -485,14 +609,6 @@
     .ett {
         font-size: 0.9em;
     }
-}
-
-@media (min-width: 1280px) {
-
-}
-
-@media (min-width: 1536px) {
-
 }
 
 
