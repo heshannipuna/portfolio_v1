@@ -39,9 +39,11 @@
             width: 100%; /* Adjust width as needed to fit within the container */
             margin-bottom: 20px;
             padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
             margin-right: 10px;
+        }
+
+        .project img {
+            max-width: 100%;
         }
 
         .project-caption {
@@ -57,12 +59,48 @@
 
     }
 
-    @media (min-width: 320px) {
-
-    }
-
     @media (min-width: 475px) {
 
+        section {
+            max-width: 75%;
+        }
+
+        h1 {
+            font-size: 1.7em;
+        }
+
+        h2 {
+            font-size: 1.2em;
+        }
+
+        p {
+            font-size: 0.75em;
+        }
+        
+        nav a {
+            padding: 5px;
+            margin: 0 5px;
+            font-size: 0.85em;
+        }
+
+        .project {
+            width: 100%; /* Adjust width as needed to fit within the container */
+            margin-bottom: 20px;
+            padding: 20px;
+            margin-right: 10px;
+        }
+
+        .project img {
+            max-width: 100%;
+        }
+
+        .project-caption {
+            font-size: 0.95em;
+        }
+
+        .project a {
+            font-size: 1.5em;
+        }
     }
 
     @media (min-width: 640px) {
@@ -141,12 +179,8 @@
     }
 
     .project {
-        width: 100%; /* Adjust width as needed to fit within the container */
-        margin-bottom: 20px;
-        padding: 20px;
         border: 1px solid #ddd;
         border-radius: 5px;
-        margin-right: 10px;
     }
 
     .projects-container {
@@ -156,7 +190,6 @@
     }
 
     .project img {
-        max-width: 100%;
         height: auto;
         border-radius: 5px;
         display: block; /* Make the image a block element */
