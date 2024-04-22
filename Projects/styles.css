@@ -172,11 +172,12 @@
 
     .embedded-container iframe {
         width: 100%;
-        height: auto;
+        height: 211px;
     }
 }
 
 @media (min-width: 640px) {
+
 
 }
 
