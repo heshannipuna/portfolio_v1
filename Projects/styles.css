@@ -444,7 +444,91 @@
 }
 
 @media (min-width: 1280px) {
+    section {
+        max-width: 87%;
+    }
 
+    h1 {
+        font-size: 1.95em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 0.87em;
+    }
+    
+    nav a {
+        padding: 5px;
+        margin: 0 5px;
+        font-size: 0.9em;
+    }
+
+    #tech-stack {
+        margin-top: 20px;
+    }
+   
+    #tech-stack h3{
+       font-size: 1.2em;
+    }
+
+    #project-duration {
+        margin-top: 20px;
+    }
+    
+    #project-duration h3 {
+        font-size: 1.2em;
+    }
+    
+    #project-duration p {
+        margin: 8px 0;
+    }
+
+    #project-members {
+        margin-top: 20px; /* Add some space above the members list */
+    }
+
+    #project-members h3 {
+        font-size: 1.2em;
+    }
+
+    #project-members li {
+        margin-bottom: 10px; /* Add space between each member entry */
+        font-size: 0.9em;
+    }
+
+    .additional-text {
+        font-size: 0.95em; 
+        margin-top: 20px; 
+        margin-bottom: 20px;
+    }
+
+    .document-button {
+        padding: 9px 15px;
+        font-size: 15px;
+        margin-top: 10x;
+        margin-bottom: 10px;
+    }
+
+    .github-button {
+        padding: 9px 15px;
+        font-size: 15px;
+        margin-top: 0px; 
+        margin-bottom: 40px; 
+    }
+ 
+    .embedded-container {
+        max-width: 100%;
+        max-height: 360px;
+        margin: 0 0 40px auto; 
+    }
+
+    .embedded-container iframe {
+        width: 100%;
+        max-height: 360px;
+    }
 }
 
 @media (min-width: 1440px) {
