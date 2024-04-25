@@ -8,5 +8,6 @@ Project started date 2024/feb/09 11:02A.M.
 **Commits are start from 26th of feb.**
 
 INITIAL RELEASE DATE: 2024/03/20
+V1.2 with Responsive Design: 2024/04/25
 
 go to - [www.heshannipuna.me](https://heshannipuna.me/)
